@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+/* background-image: linear-gradient(#FFF0F4,#FFF3F6);*/
+height: 100vh;
+background-image: linear-gradient(Red,Lime,Yellow); 
+background-repeat: no-repeat;
+background-size: cover;
+background-image:url(./Image/1.jpeg);
+}
+@font-face{
+    font-family:"BuenosAires" ;
+    src: url('./Font/BuenosAires-Thin.ttf');
+    font-weight: 100;
+}
+@font-face{
+    font-family:"BuenosAires";
+    src: url(./Font/BuenosAires-BlackItalic.ttf);
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(236, 203, 21);
+}
+.heading {
+    font-size: 96px;
+    font-weight: bold;
+    color: #62d404;
+    font-family: "BuenosAires";
+}
+.description {
+    font-size: 30px;
+    color: #000000; 
+    font-family: "BuenosAires";  
+}
+.description span{
+    background-color:#4CC9FA;
+}
+.Handsome {
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
